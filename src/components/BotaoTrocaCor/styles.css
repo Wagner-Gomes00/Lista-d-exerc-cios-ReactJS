@@ -1,0 +1,16 @@
+
+body,html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    width: 200px;
+    margin: 20px auto;
+}

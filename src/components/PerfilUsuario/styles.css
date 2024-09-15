@@ -1,0 +1,25 @@
+/* Estilo para o componente PerfilUsuario */
+body,html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.perfil-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 20px auto;
+}
+
+.perfil-foto {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
