@@ -82,21 +82,23 @@
 // export default App;
 
 //EX7
-// import React from "react";
-// import "./App.css";
-// import CaixaDeTexto from "./components/CaixaDeTexto/CaixaDeTexto"
+import React from "react";
+import "./App.css";
+import CaixaDeTexto from "./components/CaixaDeTexto/CaixaDeTexto"
 
-// function App(){
-//   return(
-//     <div>
-//       <h1>Caixa de texto dinamica</h1>
-//     <CaixaDeTexto/>
-//     </div>
-//   );
-// }
-// export default App;
+function App() {
+    return (
+        <div>
+            <h1>Caixa de texto dinamica</h1>
+            <CaixaDeTexto />
+        </div>
+    );
+}
+export default App;
 
-//EX8
+
+
+
 
 
 
